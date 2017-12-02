@@ -1,0 +1,13 @@
+[package]
+authors = ["Taryn Hill <taryn@phrohdoh.com>"]
+name = "async-test"
+version = "0.1.0"
+include = ["src/**/*.rs", "Cargo.toml", "Cargo.lock"]
+
+[dependencies]
+futures = "0.1.17"
+github_webhook_data = "0.0.2"
+hyper = "0.11.7"
+reqwest = { version = "0.8.1", features = ["unstable"] }
+tokio-core = "0.1.10"
+tokio-timer = "0.1.2"
